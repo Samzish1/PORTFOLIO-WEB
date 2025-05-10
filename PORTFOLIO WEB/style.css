@@ -1,56 +1,57 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .saira-extra-condensed-thin {
-    
+
 
     font-family: "Saira Extra Condensed", sans-serif;
     font-weight: 100;
     font-style: normal;
-  }
+}
 
-  .mulish-regular {
+.mulish-regular {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.parent{
+
+
+.parent {
     height: 100vh;
     max-width: 100vw;
     background-color: white;
     overflow: hidden;
-    
-    
-    
-    
 }
 
-.child1{
+.child1 {
     height: 100vh;
     width: 20%;
     background-color: rgb(180, 35, 35);
     display: inline-block;
     vertical-align: top;
     font-family: "Saira Extra Condensed", sans-serif;
-  
+
 }
-img{
+
+img {
     border-radius: 50%;
-    border:rgb(255, 255, 255);
-    width: 160px; /* Adjust the size as needed */
-    height: 160px; /* Ensure the height and width are equal for a perfect circle */
+    border: rgb(255, 255, 255);
+    width: 160px;
+    /* Adjust the size as needed */
+    height: 160px;
+    /* Ensure the height and width are equal for a perfect circle */
     margin-top: 110px;
     margin-left: 55px;
     margin-bottom: 20px;
@@ -58,20 +59,20 @@ img{
     background-color: rgb(202, 125, 115);
 }
 
-#ABOUT{
-    
+#ABOUT {
+
     padding: 2px;
     margin-left: 10px;
     margin-top: 5px;
     position: sticky;
 
-    
+
 
 
 
 }
 
-.child2{
+.child2 {
     height: 100vh;
     width: 79%;
     background-color: rgb(255, 255, 255);
@@ -82,10 +83,10 @@ img{
     position: sticky
 }
 
-a{
-    
+a {
+
     font-size: 1em;
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff8c;
     display: block;
     text-align: center;
@@ -95,7 +96,7 @@ a{
 
 }
 
-.child1 a:hover{
+.child1 a:hover {
     color: #ffffff;
     background-color: rgb(177, 36, 36);
     transition-property: all;
@@ -109,22 +110,23 @@ a{
 
 
 .name {
-    font-family:'saira extra condensed', sans-serif;
+    font-family: 'saira extra condensed', sans-serif;
     font-size: 6em;
     color: #343a40;
     margin-top: 120px;
-    margin-left : 50px
+    margin-left: 50px
 }
 
-.span{
+.span {
     font-family: 'saira extra condensed', sans-serif;
     font-size: em;
-    color:  rgb(177, 36, 36);
+    color: rgb(177, 36, 36);
     margin-top: 120px;
-    margin-right : 50px
+    margin-right: 50px
 }
+
 /* para1 */
-.para1{
+.para1 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 25px;
     color: #6c757d;
@@ -134,7 +136,8 @@ a{
     margin-bottom: 50px;
 
 
- }   
+}
+
 .mylink {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 28px;
@@ -142,26 +145,27 @@ a{
     line-height: 0.1em;
     text-decoration: underline;
     display: inline-block;
-    
 
 
- }
- .icon {
+
+}
+
+.icon {
     position: absolute;
     top: 390px;
     left: 50px;
     transform: translate(-50px -50px);
     display: flex;
     border-radius: 50%;
-    
 
 
- } 
-   
 
- 
+}
 
- .icon .iconsize{
+
+
+
+.icon .iconsize {
     background-color: #4a4e57;
     color: white;
     font-size: 25px;
@@ -171,40 +175,24 @@ a{
     line-height: 30px;
     width: 50px;
     height: 50px;
-    
-    
-    
- }
- .icon  :hover {
+
+
+
+}
+
+.icon :hover {
     color: rgb(182, 46, 148);
 
 
- }
+}
 
- .icon .iconsize a{
+.icon .iconsize a {
     position: relative;
     display: block;
     width: 100px;
     height: 70px;
     border-radius: 50%;
     text-align: center;
-   
-    
- }
-
- 
-   
-
-
-.para2{
-    font-family:'mulish', sans-serif;
-    font-size: 18px;
-    color:grey;
-    margin-top: auto;
-    margin-left : 60px;
-    margin-bottom: 50px;
-    
-    
 
 
 }
@@ -212,32 +200,53 @@ a{
 
 
 
-.exp{
+
+.para2 {
+    font-family: 'mulish', sans-serif;
+    font-size: 18px;
+    color: grey;
+    margin-top: auto;
+    margin-left: 60px;
+    margin-bottom: 50px;
+
+
+
+
+}
+
+
+
+
+.exp {
 
 
     font-family: 'saira extra condensed', sans-serif;
     font-size: 3.5em;
-    color:#343a40;
+    color: #343a40;
     margin-top: 80px;
-    margin-left : 60px;
+    margin-left: 60px;
     margin-bottom: 40px;
-    
+
 }
-.heading{
+
+.heading {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 2em;
-    color:#343a40;;
-    margin-left : 60px;
+    color: #343a40;
+    ;
+    margin-left: 60px;
     font-weight: normal;
     margin-top: 0%;
     margin-bottom: 0px;
     line-height: 0em;
 }
-.heading2{
+
+.heading2 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 1.5em;
-    color:grey;;
-    margin-left : 60px;
+    color: grey;
+    ;
+    margin-left: 60px;
     font-weight: 500;
     line-height: 1em;
     margin-top: 0%;
@@ -250,28 +259,28 @@ a{
 
 
 
-.detail{
+.detail {
 
 
-    font-family: "mulish",sans-serif;
+    font-family: "mulish", sans-serif;
     font-size: 1em;
-    color:#343a40;
-    margin-left : 60px;
+    color: #343a40;
+    margin-left: 60px;
     margin-top: 40px;
-   
+
 
 }
 
 
 
- 
-.year{
+
+.year {
     font-family: "mulish", sans-serif;
     font-size: 1em;
     margin-left: 800px;
     line-height: normal;
     color: rgb(177, 36, 36);
-    
+
 
 
 
@@ -280,11 +289,12 @@ a{
 
 }
 
-.web{
+.web {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 2em;
-    color:#343a40;;
-    margin-left : 60px;
+    color: #343a40;
+    ;
+    margin-left: 60px;
     font-weight: normal;
     margin-top: 60px;
     margin-bottom: 0px;
@@ -292,39 +302,41 @@ a{
 
 }
 
-.year2{
+.year2 {
     font-family: "mulish", sans-serif;
     font-size: 1em;
     margin-left: 800px;
     line-height: normal;
     color: rgb(177, 36, 36);
-    
+
 }
 
-.heading3{
+.heading3 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 1.5em;
-    color:grey;;
-    margin-left : 60px;
+    color: grey;
+    ;
+    margin-left: 60px;
     font-weight: 500;
     margin-top: 0%;
     line-height: 0em;
 }
 
-.detail2{
-    font-family: "mulish",sans-serif;
+.detail2 {
+    font-family: "mulish", sans-serif;
     font-size: 1em;
-    color:#343a40;
-    margin-left : 60px;
+    color: #343a40;
+    margin-left: 60px;
     margin-top: 40px;
 
 }
 
-.junior{
+.junior {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 2em;
-    color:#343a40;;
-    margin-left : 60px;
+    color: #343a40;
+    ;
+    margin-left: 60px;
     font-weight: normal;
     margin-top: 60px;
     margin-bottom: 0px;
@@ -333,44 +345,47 @@ a{
 
 }
 
-.year3{
+.year3 {
     font-family: "mulish", sans-serif;
     font-size: 1em;
     margin-left: 800px;
     line-height: normal;
-    color:  rgb(207, 20, 20);
+    color: rgb(207, 20, 20);
 }
 
-.heading4{
+.heading4 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 1.5em;
-    color:grey;;
-    margin-left : 60px;
+    color: grey;
+    ;
+    margin-left: 60px;
     font-weight: 500;
     line-height: 1em;
     margin-top: 0%;
 }
 
-.detail3{
-    font-family: "mulish",sans-serif;
+.detail3 {
+    font-family: "mulish", sans-serif;
     font-size: 1em;
-    color:#343a40;
-    margin-left : 60px;
+    color: #343a40;
+    margin-left: 60px;
     margin-top: 40px;
 }
 
-.intern{
+.intern {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 2em;
-    color:#343a40;;
-    margin-left : 60px;
+    color: #343a40;
+    ;
+    margin-left: 60px;
     font-weight: normal;
     margin-top: 50px;
     margin-bottom: 0px;
     line-height: 0em;
-    
+
 }
-.year4{
+
+.year4 {
     font-family: "mulish", sans-serif;
     font-size: 1em;
     margin-left: 800px;
@@ -378,56 +393,59 @@ a{
     color: rgb(177, 36, 36);
 }
 
-.heading5{
+.heading5 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 1.5em;
-    color:grey;
-    margin-left : 60px;
+    color: grey;
+    margin-left: 60px;
     font-weight: 500;
     line-height: 1em;
     margin-top: 0%;
-   
+
 }
-.detail4{
-    font-family: "mulish",sans-serif;
+
+.detail4 {
+    font-family: "mulish", sans-serif;
     font-size: 1em;
-    color:#343a40;
-    margin-left : 60px;
+    color: #343a40;
+    margin-left: 60px;
     margin-top: 40px;
 }
 
-.edu{
+.edu {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 3.5em;
-    color:#343a40;
+    color: #343a40;
     margin-top: 80px;
-    margin-left : 60px;
+    margin-left: 60px;
     margin-bottom: 20px
-
 }
 
-.heading6{
+.heading6 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 2em;
-    color: #343a40;;
-    margin-left : 60px;
+    color: #343a40;
+    ;
+    margin-left: 60px;
     font-weight: 500px;
     line-height: 0em;
     margin-top: 0%;
 
 }
-.year5{
+
+.year5 {
     font-family: "mulish", sans-serif;
     font-size: 1em;
     margin-left: 800px;
     line-height: normal;
     color: rgb(177, 36, 36);
 }
-.heading7{
+
+.heading7 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 20px;
-    color:grey;
-    margin-left : 60px;
+    color: grey;
+    margin-left: 60px;
     font-weight: normal;
     margin-top: 1px;
     line-height: 1em;
@@ -436,51 +454,54 @@ a{
 
 
 
-.school{
+.school {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 2em;
-    color: #343a40;;
-    margin-left : 60px;
+    color: #343a40;
+    ;
+    margin-left: 60px;
     font-weight: 500px;
     line-height: 0em;
     margin-top: 50px;
 
 }
-.year6{
+
+.year6 {
     font-family: "mulish", sans-serif;
     font-size: 1em;
     margin-left: 800px;
     line-height: normal;
     color: rgb(177, 36, 36);
 }
-.heading8{
+
+.heading8 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 20px;
-    color:grey;
-    margin-left : 60px;
+    color: grey;
+    margin-left: 60px;
     font-weight: normal;
     line-height: 1em;
     margin-top: 2px
 }
 
-.skill2{
+.skill2 {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 3.5em;
-    color:#343a40;
+    color: #343a40;
     margin-top: 80px;
-    margin-left : 60px;
+    margin-left: 60px;
     margin-bottom: 40px;
 
 
 
-    
+
 }
 
-.skillsdescription{
+.skillsdescription {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 1.5em;
-    color:grey;
-    margin-left : 60px;
+    color: grey;
+    margin-left: 60px;
     font-weight: 500;
     line-height: 0em;
     margin-top: 0%;
@@ -491,25 +512,25 @@ a{
 
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 3em;
     color: #6C757D;
     margin-top: 60px;
     margin-left: 40px;
     margin-right: 10px;
     display: inline-block;
-   
 
-    
 
-    
+
+
+
 }
 
-.workflow{
+.workflow {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 1.5em;
-    color:grey;
-    margin-left : 60px;
+    color: grey;
+    margin-left: 60px;
     font-weight: 500;
     line-height: 0em;
     margin-top: 50px;
@@ -517,22 +538,28 @@ a{
 
 
 
-  
-
-  ul {
-    list-style-type: none; /* Remove default bullets */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
 
 
+ul {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
 
-  ol li{
+
+
+ol li {
     font-family: 'mulish', sans-serif;
     font-size: 1em;
-    color: grey; /* Text color */
-    margin-bottom: 10px; /* Space between list items */
-    margin-left: 80px; /* Space for the checkmark */
+    color: grey;
+    /* Text color */
+    margin-bottom: 10px;
+    /* Space between list items */
+    margin-left: 80px;
+    /* Space for the checkmark */
     padding-top: 0px;
     margin-top: 0px;
     line-height: 1em;
@@ -540,37 +567,37 @@ a{
 
 
 
-  }
-
-  
-  
+}
 
 
-  
-.hobby{ 
+
+
+
+
+.hobby {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 3.5em;
     color: #343a40;
     margin-top: 200px;
-    margin-left : 70px;
+    margin-left: 70px;
     margin-bottom: 20px
 }
 
 
-.heading9{
-    font-family: "mulish",sans-serif;
+.heading9 {
+    font-family: "mulish", sans-serif;
     font-size: 1em;
-    color:#343a40;
-    margin-left : 70px;
+    color: #343a40;
+    margin-left: 70px;
     margin-top: 40px;
 }
 
-.award{
+.award {
     font-family: 'saira extra condensed', sans-serif;
     font-size: 4em;
     color: #343a40;
     margin-top: 200px;
-    margin-left : 70px;
+    margin-left: 70px;
     margin-bottom: 20px
 }
 
@@ -579,26 +606,18 @@ a{
     margin-left: 70px;
     line-height: 1.5em;
 
-    
-    
+
+
 
 }
 
 
-.fa-solid  {
+.fa-solid {
     color: goldenrod;
     font-size: 15px;
     margin-right: 10px;
-   
-    
-    
+
+
+
 
 }
-
-
-
-
-
-  
-
-
